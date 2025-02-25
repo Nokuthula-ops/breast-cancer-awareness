@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN PAGE</title>
+    <title>SignUp Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container"><h2>Login</h2>
-    <input type="email" id="loginEmail" placeholder="Enter your email" required>
-    <input type="password" id="loginPassword" placeholder="Enter password" required>
-    <button onclick="login()">Login</button>
-    <button onclick="forgotPassword()">Forgot Password?</button>
-    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
-
+<div class="container"><h2>Sign Up</h2>
+    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+    <input type="password" id="signupPassword" placeholder="Enter password" required>
+    <button onclick="signUp()">Sign Up</button>
 </div>
 <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js"></script>
 <script src="firebase-config.js"></script>
 <script src="script.js"></script>
+
 </body>
 </html>
